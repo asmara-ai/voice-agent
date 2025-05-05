@@ -1,0 +1,19 @@
+[project]
+name = "voicebot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.11.14",
+    "aiohttp-cors>=0.8.0",
+    "colorlog>=6.9.0",
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "mcp>=1.6.0",
+    "openai>=1.68.2",
+    "pydantic>=2.10.6",
+    "python-dotenv>=1.1.0",
+    "uvicorn>=0.34.0",
+    "websockets>=15.0.1",
+]

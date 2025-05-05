@@ -1,0 +1,11 @@
+# Ignore everything by default
+
+# But do NOT ignore the build directory
+
+# Your existing rules (order might matter, so place them after the general ignore)
+__pycache__/
+logs
+uv.lock
+.env
+.venv
+src/voicebot.egg-info/

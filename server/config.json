@@ -1,0 +1,11 @@
+{
+  "mcp-shopify": {
+    "command": "node",
+    "args": ["mcp_servers/mcp-shopify/build/index.js"],
+    "env": {
+      "SHOPIFY_ACCESS_TOKEN": "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",
+      "MYSHOPIFY_DOMAIN": "zellbury-asmara.myshopify.com"
+    },
+    "is_active": false
+  }
+}
